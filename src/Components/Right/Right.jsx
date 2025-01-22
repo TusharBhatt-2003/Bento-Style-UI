@@ -15,10 +15,10 @@ export default function Right() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{
               duration: 0.4,
-              //scale: { type: "spring", visualDuration: .5, bounce: 0.01 },
-              type: "spring",
-              stiffness: 900,
-              damping: 20,
+              scale: { type: "spring", visualDuration: 0.5, bounce: 0.01 },
+              // type: "spring",
+              // stiffness: 900,
+              // damping: 20,
             }}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
@@ -34,10 +34,10 @@ export default function Right() {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{
                   duration: 0.4,
-                  //scale: { type: "spring", visualDuration: .5, bounce: 0.01 },
-                  type: "spring",
-                  stiffness: 900,
-                  damping: 20,
+                  scale: { type: "spring", visualDuration: 0.5, bounce: 0.01 },
+                  // type: "spring",
+                  // stiffness: 900,
+                  // damping: 20,
                 }}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
@@ -48,10 +48,10 @@ export default function Right() {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{
                   duration: 0.4,
-                  //scale: { type: "spring", visualDuration: .5, bounce: 0.01 },
-                  type: "spring",
-                  stiffness: 900,
-                  damping: 20,
+                  scale: { type: "spring", visualDuration: 0.5, bounce: 0.01 },
+                  // type: "spring",
+                  // stiffness: 900,
+                  // damping: 20,
                 }}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
@@ -62,10 +62,10 @@ export default function Right() {
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{
                   duration: 0.4,
-                  //scale: { type: "spring", visualDuration: .5, bounce: 0.01 },
-                  type: "spring",
-                  stiffness: 900,
-                  damping: 20,
+                  scale: { type: "spring", visualDuration: 0.5, bounce: 0.01 },
+                  // type: "spring",
+                  // stiffness: 900,
+                  // damping: 20,
                 }}
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.95 }}
@@ -80,10 +80,10 @@ export default function Right() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{
               duration: 0.4,
-              //scale: { type: "spring", visualDuration: .5, bounce: 0.01 },
-              type: "spring",
-              stiffness: 900,
-              damping: 20,
+              scale: { type: "spring", visualDuration: 0.5, bounce: 0.01 },
+              // type: "spring",
+              // stiffness: 900,
+              // damping: 20,
             }}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
@@ -96,10 +96,10 @@ export default function Right() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{
               duration: 0.4,
-              //scale: { type: "spring", visualDuration: .5, bounce: 0.01 },
-              type: "spring",
-              stiffness: 900,
-              damping: 20,
+              scale: { type: "spring", visualDuration: 0.5, bounce: 0.01 },
+              // type: "spring",
+              // stiffness: 900,
+              // damping: 20,
             }}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
