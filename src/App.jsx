@@ -1,5 +1,6 @@
 import "./App.css";
 import Left from "./Components/Left/Left";
+import NotificationButton from "./Components/notification/NotificationButton";
 import Right from "./Components/Right/Right";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
           <Left />
           <Right />
         </main>
+        <NotificationButton />
       </div>
     </>
   );
