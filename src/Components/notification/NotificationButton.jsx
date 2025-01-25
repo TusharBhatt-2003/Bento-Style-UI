@@ -30,14 +30,12 @@ const NotificationButton = () => {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen">
-      <button
-        onClick={handleNotification}
-        className="px-6 py-2 bg-blue-500 text-white rounded-lg shadow-lg hover:bg-blue-600 transition duration-300"
-      >
-        Push Notification
-      </button>
-    </div>
+    <button
+      onClick={handleNotification}
+      className="px-6 py-2 bg-blue-500 text-white rounded-lg shadow-lg hover:bg-blue-600 transition duration-300"
+    >
+      Push Notification
+    </button>
   );
 };
 

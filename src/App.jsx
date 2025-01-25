@@ -10,8 +10,8 @@ function App() {
         <main className="flex flex-col lg:flex-row gap-3 w-full h-full lg:w-[80%] lg:h-[80%]">
           <Left />
           <Right />
+          <NotificationButton />
         </main>
-        <NotificationButton />
       </div>
     </>
   );
