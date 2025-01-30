@@ -1,6 +1,6 @@
 import Spline from "@splinetool/react-spline";
 
-const CatsScene = () => {
+const GameScene = () => {
   return (
     <div className="h-full w-full overflow-hidden">
       <Spline
@@ -12,4 +12,4 @@ const CatsScene = () => {
   );
 };
 
-export default CatsScene;
+export default GameScene;

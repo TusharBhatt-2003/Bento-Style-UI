@@ -1,6 +1,5 @@
 import { motion } from "motion/react";
-import Scene from "./3d/Scene";
-import CatsScene from "./3d/BGscene";
+import GameScene from "./Scenes/GameScene";
 
 const BoldHeading = ({ text }) => {
   return (
@@ -19,7 +18,7 @@ const BoldHeading = ({ text }) => {
       className="border overflow-hidden border-[#964144] h-2/3 w-full flex justify-center items-center rounded-lg"
     >
       {/* <h1 className="text-5xl text-[#964144] font-bold uppercase">{text}</h1> */}
-      <CatsScene />
+      <GameScene />
     </motion.div>
   );
 };

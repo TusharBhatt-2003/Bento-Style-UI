@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import Image from "../Image";
 import Text from "../Text";
-import Scene from "../3d/Scene";
+import Scene from "../Scenes/Scene";
 
 export default function Right() {
   const imgSrc =
