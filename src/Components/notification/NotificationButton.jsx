@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const NotificationButton = () => {
   const [inAppNotification, setInAppNotification] = useState(null);
@@ -15,14 +15,14 @@ const NotificationButton = () => {
       // Push browser notification
       new Notification("Hello!", {
         body: "You just clicked the button!",
-        icon: "https://via.placeholder.com/128",
+        icon: "/logo.svg", // Ensure this path is valid and accessible
       });
     } else if (Notification.permission !== "denied") {
       Notification.requestPermission().then((permission) => {
         if (permission === "granted") {
           new Notification("Permission Granted", {
             body: "You will now receive notifications!",
-            icon: "https://via.placeholder.com/128",
+            icon: "/logo.svg", // Ensure this path is valid and accessible
           });
         } else {
           // Fallback for denied permission
@@ -43,10 +43,10 @@ const NotificationButton = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center">
+    <div className="flex flex-col my-10 items-center justify-center">
       <button
         onClick={handleNotification}
-        className="px-6 py-2 bg-blue-500 text-white rounded-lg shadow-lg hover:bg-blue-600 transition duration-300"
+        className="px-6 py-2 bg-[#964144] text-xl font-bold text-white rounded-lg shadow-lg border border-[#964144] hover:bg-white hover:text-[#964144] transition duration-300"
       >
         Push Notification
       </button>

@@ -1,4 +1,6 @@
 import { motion } from "motion/react";
+import Scene from "./3d/Scene";
+import CatsScene from "./3d/BGscene";
 
 const BoldHeading = ({ text }) => {
   return (
@@ -14,9 +16,10 @@ const BoldHeading = ({ text }) => {
       }}
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
-      className="border border-[#964144] h-2/3 w-full flex justify-center items-center rounded-lg"
+      className="border overflow-hidden border-[#964144] h-2/3 w-full flex justify-center items-center rounded-lg"
     >
-      <h1 className="text-5xl text-[#964144] font-bold uppercase">{text}</h1>
+      {/* <h1 className="text-5xl text-[#964144] font-bold uppercase">{text}</h1> */}
+      <CatsScene />
     </motion.div>
   );
 };

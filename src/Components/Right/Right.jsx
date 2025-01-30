@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import Image from "../Image";
 import Text from "../Text";
+import Scene from "../3d/Scene";
 
 export default function Right() {
   const imgSrc =
@@ -103,9 +104,10 @@ export default function Right() {
             }}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="flex justify-center items-center border border-[#964144] md:h-1/2 w-full rounded-lg"
+            className="flex justify-center items-center border border-[#964144] overflow-hidden md:h-1/2 w-full rounded-lg"
           >
-            <h1 className="text-5xl text-[#964144]  font-bold">Havoc</h1>
+            {/* <h1 className="text-5xl text-[#964144]  font-bold">Havoc</h1> */}
+            <Scene />
           </motion.div>
         </div>
       </div>
